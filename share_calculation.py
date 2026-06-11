@@ -1,5 +1,7 @@
-price = int(input("Введіть ціну товару: "))
-discount = int(input("Введіть знижку на товар: "))
+price = float(input("Введіть ціну товару: "))
+discount = float(input("Введіть знижку на товар: "))
 
-new_price = (price * discount/100)
-print("Нова ціна товару: ", new_price)
+new_price = (price * discount / 100)
+result = price - new_price
+print("Знижка:", new_price)
+print("Нова ціна товару: ", result)
