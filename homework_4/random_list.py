@@ -12,4 +12,4 @@ result.append(lst[0])
 result.append(lst[2])
 result.append(lst[-2])
 
-print("Результат: ", result)
+print("Результат:  ", result)
